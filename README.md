@@ -19,7 +19,7 @@ npm install && npm run dev
 ```
 
 ### How to clone
-How to make another laravel with ui core
+How to clone this app
 
 ```bash
 git clone https://github.com/myogin/mfep_penilaianguru.git 
@@ -28,5 +28,6 @@ composer install
 php artisan key:generate
 cp .env.example .env
 php artisan migrate
+php artisan serve
 
 ```
